@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Book</title>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="cssproject/mystyle.css">
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <header>
+
+       
+        <nav>
+
+              <i id="menu-bar" class='bx bx-menu'></i>
+
+            <div class="nav_logo">
+                <a class="#">
+                    <img src="image/travel.jpg">
+                    <h2>DeT0ur</h2>
+
+                </a>
+            </div>
+            
+            <ul class="navbar">
+
+                  <li><a href="#">HOME</a><i id="menuButton" class='bx bx-chevron-down'></i></li>
+                  <li><a href="#">BOOK</a></li>
+                  <li><a href="#">PACKAGES</a></li>
+                  <li><a href="#">SERVICES</a></li>
+                  <li><a href="#">GALLERY</a></li>
+                  <li><a href="#">REVIEW</a></li>
+                  <li><a href="#">CONTACT</a></li>
+
+
+             </ul>
+
+
+              
+
+                <div class="icons">
+                    <i class='bx bx-search' id="search-btn"></i>
+                    <i class='bx bxs-user' id="login-btn"></i>
+                </div>
+
+                <form action="" class="search-bar-container">
+                    <input type="text" id="search-bar" name="search" placeholder="Search Here">
+                    <label for="search-bar" class="bx bx-search"></label>
+
+                </form>
+        </nav>
+    </header>
+
+
+<div class="login-form-container">
+
+    <i class="bx bx-x" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" id="email" class="box" placeholder="enter your email">
+         <p id="message"></p>
+        <input type="password" id="password"class="box" placeholder="enter your password">
+         <p id="message"></p>
+        <input type="submit" value="login now" class="btn" id="submitButton">
+
+        <input type="checkbox" id="remember-me">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>dont have an account? <a href="#">register now</a></p>
+       
+    </form>
+
+</div>
+
+ 
+
+ <section class="home" id="home">
+
+     <div class="hero_container">
+        <h3>Adventure is Worthwhile</h3>
+        <p>Discover new Place with us, adventure awaits</p>
+        <a href="#" class="btn">Discover more</a>
+     </div>
+
+     <div class="controls">
+        <span class="vid-btn active" data-src="image/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-3.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="image/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+ </section>
+
+ <section class="book" id="BOOK">
+     
+    <h1 class="heading">
+        <span>B</span>
+         <span>O</span>
+          <span>O</span>
+           <span>K</span>
+            <span class="space"></span>
+             <span>N</span>
+              <span>O</span>
+               <span>W</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="travel/travel.jpg" alt="#">
+        </div>
+
+        <div class="function">
+        <form action="input">
+            <div class="rapper">
+                <div class="select-btn">
+                    <span>Select Country</span>
+                    <i class='bx bx-chevron-down'></i>
+                </div>
+                <div class="content">
+                    <div class="search">
+                        <i class='bx bx-search'></i>
+                        <input type="text" id="esearch" name="text" placeholder="search">
+                    </div>
+                    <ul class="options">
+                        <li>Philippines</li>
+                        <li>Japan</li>
+                        <li>austrlia</li>
+                        <li>Dubai</li>
+                        <li>USA</li>
+                        <li>Netherland</li>
+                        <li>Spain</li>
+                    </ul>
+                </div>
+                
+            </div>
+
+        <div class="input-box counter-box">
+            <h3>How Many</h3>
+            <button type="button" id="decrement">-</button>
+            <input type="number" id="number" value="0" readonly />
+            <button type="button" id="increment">+</button>
+            <button type="button" id="reset">Reset</button>
+        </div>
+
+        <div class="input-box">
+            <h3>Arrive</h3>
+            <input type="date" id="date">
+        </div>
+
+        <div class="input-box">
+            <h3>Leaving</h3>
+            <input type="date" id="date">
+        </div>
+
+        <input type="submit" class="btn" value="book now">
+
+        </form>
+        </div>
+    </div>
+
+  
+ </section>
+
+ <section class="packages" id="packages">
+     
+     <h1 class="heading">
+        <span>P</span>
+         <span>a</span>
+          <span>c</span>
+           <span>K</span>
+            <span>a</span>
+             <span>g</span>
+              <span>e</span>
+               <span>s</span>
+    </h1>
+
+<div class="box-container">
+    <div class="box">
+        <img src="travel/images1.jpg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>PHILIPPINES </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+
+
+    <div class="box">
+        <img src="travel/images2.jpeg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>JORDAN</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+
+    <div class="box">
+        <img src="travel/images3.jpg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>EGYPT</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+
+    <div class="box">
+        <img src="travel/images4.jpg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>BANGKOK THAILAND </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+
+    <div class="box">
+        <img src="travel/images5.jpg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>ITALY ROME </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+
+     <div class="box">
+        <img src="travel/images6.jpg" alt="">
+        <div class="content">
+            <h3> <i class='bx bx-map'></i>JAPAN </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis fringilla neque. Nam</p>
+            <div class="stars">
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+                <i class='bx bx-star'></i> 
+            </div>
+            <div class="price"> $90.00 <span>$120.00</span> </div>
+            <a href="#" class="btn">book now</a>
+        </div> 
+    </div>
+</div>
+
+
+</section>
+
+<section class="services" id="services">
+
+     <h1 class="heading">
+        <span>S</span>
+         <span>e</span>
+          <span>r</span>
+           <span>v</span>
+            <span>i</span>
+             <span>c</span>
+              <span>e</span>
+               <span>s</span>
+    </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class='bx bx-building'></i> 
+        <h3>Affordable Hotels</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+    <div class="box">
+         <i class='bx bx-food-menu'></i>
+        <h3>Food and Drinks</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="bx bxs-megaphone"></i>
+        <h3>safety Guide</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="bx bx-globe"></i>
+        <h3>Around the World</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+    <div class="box">
+        <i class='bx bxs-plane'></i> 
+        <h3>Fastest Travel</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+    <div class="box">
+        <i class="bx bx-landscape"></i> 
+        <h3>Adventure</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.
+        </p>
+    </div>
+
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+     <h1 class="heading">
+        <span>G</span>
+         <span>a</span>
+          <span>l</span>
+           <span>l</span>
+            <span>e</span>
+             <span>r</span>
+              <span>y</span>
+            
+    </h1>
+    
+   <div class="box-container">
+       
+       <div class="box">
+        <img src="travel/images14.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images7.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images8.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images9.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images10.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images11.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images12.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images13.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+
+        <div class="box">
+        <img src="travel/images15.jpg" alt="">
+        <div class="content">
+            <h3>Amazing Place</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+            <a href="#" class="btn">See More</a>
+        </div>
+           
+       </div>
+   </div>
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>R</span>
+         <span>e</span>
+          <span>v</span>
+           <span>i</span>
+            <span>e</span>
+             <span>w</span>
+              
+    </h1>
+
+        <div class="swiper review-slider">
+            
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture1.jpg" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture2.avif" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture3.webp" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture4.webp" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture5.jpg" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture6.avif" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture7.jpg" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture8.jpg" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="travel/picture9.jpg" alt="">
+                        <h3>Jhon Doe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+                        <div class="stars">
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                            <i class='bx bx-star'></i> 
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    
+
+</section>
+
+<section class="contact">
+
+
+    <h1 class="heading">
+        <span>C</span>
+         <span>o</span>
+          <span>n</span>
+           <span>t</span>
+            <span>a</span>
+             <span>c</span>
+              <span>t</span> 
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="travel/PLANE4.png"  alt="#">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                
+            </div>
+
+            <div class="inputBox">
+                <input type="number" placeholder="Number">
+                <input type="text" placeholder="text">
+                
+            </div>
+
+            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+</section>
+
+<section class="brand-container">
+
+    <div class="swiper brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="travel/brand1.avif" alt=""></div>
+            <div class="swiper-slide"><img src="travel/brand2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="travel/brand3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="travel/brand4.png" alt=""></div>
+            <div class="swiper-slide"><img src="travel/brand7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="travel/brand6.jpg" alt=""></div>
+        </div>
+        
+    </div>
+    
+
+
+</section>
+
+<section class="footer">
+    
+    <div class="box-container">
+    <div class="box">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fermentum ligula felis, in facilisis turpis auctor eu.</p>
+    </div>
+
+    <div class="box">
+        <h3>Branch Location</h3>
+        <a href="#">INDIA</a>
+        <a href="#">USA</a>
+        <a href="#">JAPAN</a>
+        <a href="#">FRANCE</a>
+    </div>
+
+    <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#">Home</a>
+        <a href="#">Book</a>
+        <a href="#">Packages</a>
+        <a href="#">Services</a>
+        <a href="#">Gallery</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+    </div>
+
+     <div class="box">
+        <h3>Follow Us</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">linkedin</a>
+       
+    </div>
+
+</div>
+
+    <h1 class="credit"> Created by <span>Mr.SHANERICK PLAZA</span> Allright Reserved!</h1>
+    
+                    <button id="addParagraphButton">Add Paragraph</button><br><br>
+
+                            <div id="paragraphContainer"></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="plaza1/script.js"></script>
+
+</body>
+</html>
